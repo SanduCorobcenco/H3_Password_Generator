@@ -1,0 +1,117 @@
+
+/* Declaring properties to h1  */
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #D2691E;
+    font-size: 50px;
+}
+/* Declaring properties to h2  */
+h2 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #5F9EA0;
+    font-size: 32px;
+}
+
+/* Declaring properties to wrapper class */
+.wrapper {
+    
+    height: 100%;
+    width: auto;
+    margin-top: 20%;
+    padding: 0;
+   
+
+}
+
+/* Declaring properties to card class */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    text-align: center; 
+    box-sizing: border-box;
+    background-color: #F0E68C;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: rgba(255, 1, 1, 0.15) 0px 8px 8px 0px;
+    color: hsl(0, 0%, 0%);
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Declaring properties to password ID */
+#password {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border: 2px dashed #3b4149;
+    border-radius: 6px;
+    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    display: block;
+    align-self: center;
+    width: -webkit-fill-available;
+   
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    resize: none;
+    overflow: hidden; 
+}
+
+.bg-image { 
+    /* The background image used */
+    background-image: url("https://piwo.puruno.com/wp-content/uploads/2018/03/pexels-photo-262367.jpeg");}
+
+
+/* Declaring properties to button class */
+.btn {
+    border: none;
+    background-color: green;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+  
+#copy_button[disabled]{
+   
+    cursor: default;
+    background: red;
+    }
+
+
+/* Responsivnes */
+@media (max-width: 690px) {
+.btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+}
+  
+#password {
+    font-size: 1rem;
+}
+}
+  
+@media (max-width: 500px) {
+.btn {
+    font-size: 0.8rem;
+}
+}

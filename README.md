@@ -6,7 +6,7 @@ The aplication generates a random password based on user-selected criteria, via 
 ### Application description:
 User are given couple options to select the password criteria, the user should choose the length of the password from the recommended range and at least one type of characters:
 * Length range 8-128 characters
-* List of characters type: #### lower case, #### upper case, #### numeric and #### special characters.
+* List of characters type: lower case,  upper case, numeric and  special characters.
 
 The Copy to Clipboard button is deactivated until we generate a password. 
 ![Home test <768px](./Assets/1.png)
